@@ -1,10 +1,61 @@
+@font-face { 
+    font-family: ShakaPow; 
+    src: url(ShakaPow.ttf);
+} 
+ 
+body {
+    background-color: white;
+    position: relative;
+}
+
+h1 {
+    font-size: 64px;
+    margin-top: 200px;
+}
+
+div {
+    font-size: 48px;
+}
+
 .footer {
     justify-content: center;
     display: flex;
-    margin-top:5em;
     padding: 5px;
     background-color: #2A4B7C;
     color: #fff;
-    position: relative;
-    top: 100%;
+    margin-top: 200px;
+}
+
+.button {
+    background-color: purple;
+    padding: 15px 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 48px;
+    top: 10px;
+    font-family: ShakaPow;
+}
+
+.texts{
+    text-align: center;
+    font-family: ShakaPow;
+}
+
+#punchline {
+    left: 25%;
+    
+}
+
+#reroll {
+    left: 55%;
+}
+
+#jokeSetup {
+    margin-top: 100px;
+}
+
+#jokePunchline {
+    margin-top: 32px;
 }

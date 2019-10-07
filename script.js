@@ -10,7 +10,7 @@ function run(){
             return response.json();
         }).then(function(json) 
         {
-            console.log(json);
+            // console.log(json);
             document.getElementById("jokeSetup").innerHTML = json["setup"];
             punchline = json["punchline"];
         
