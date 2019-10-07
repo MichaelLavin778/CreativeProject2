@@ -15,7 +15,7 @@ body {
 
 h1 {
     font-size: 92px;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 div {
@@ -28,7 +28,7 @@ div {
     padding: 5px;
     background-color: #2A4B7C;
     color: #fff;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .button {
@@ -38,7 +38,7 @@ div {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 48px;
+    font-size: 28px;
     top: 10px;
     font-family: ShakaPow;
     position: relative;
@@ -55,7 +55,7 @@ div {
 }
 
 #reroll {
-    left: 55%;
+    left: 50%;
 }
 
 #jokeSetup {
