@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Random Jokes Page</title>
+        <title>Comedy Source</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     
     <body>
-        <h1>Random Jokes Page</h1>
-        <div id="jokeSetup">No jokes. :(</div>
-        <div id="jokePunchline"></div>
+        <h1 class="texts">Joke Factory</h1>
+        
+        <div class="texts" id="jokeSetup">No jokes. :(  try again in 15 minutes</div>
+        
+        <div class="texts" id="jokePunchline"></div>
+        <br>
+        <input class="button" id="punchline" type="submit" value="Get Punchline!">
+        <input class="button" id="reroll" type="submit" value="New Joke?">
         
         <script text="type/javascript" src="script.js"></script>
+        <script>run();</script>
     </body>
+    
     <pb>
+      
   <footer class="footer">
-    <p><a style="color: #FAE03C" href="https://github.com/Mimikyu778/CreativeProject2">GitHub Link</a></p>
+    <p><a href="https://github.com/Mimikyu778/CreativeProject2">GitHub Link</a></p>
   </footer>
 </html>
-
-<!--
-This is an example of a joke in the API.
-{
-  "id": last joke id + 1,
-  "type": "programming",
-  "setup": "What's the best thing about a Boolean?",
-  "punchline": "Even if you're wrong, you're only off by a bit."
-}
--->
